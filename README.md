@@ -31,12 +31,12 @@ Usage
 
 After your docker image is running, your can run requests against the server with the following.
 ```
-curl http://<YOUR IP ADDRESS HERE>:9999/db?url=<YOUR GIT REPO HERE>
+curl http://<YOUR IP ADDRESS HERE>:9999/?url=<YOUR GIT REPO HERE>
 ```
 
 So for example, to run against the not-impressed github repo.
 ```
-http://192.168.99.100:9999/db?url=git@github.com:scottleedavis/not-impressed.git
+http://192.168.99.100:9999/?url=git@github.com:scottleedavis/not-impressed.git
 ```
 *The repo queried against MUST have a .ni.json configuration file in it's root in order to run the build/scans.*
 
