@@ -31,7 +31,7 @@ Usage
 
 After your docker image is running, your can run requests against the server with the following.
 ```
-curl http://<YOUR IP ADDRESS HERE>:9999/url=<YOUR GIT REPO HERE>
+curl http://<YOUR IP ADDRESS HERE>:9999/db?url=<YOUR GIT REPO HERE>
 ```
 
 So for example, to run against the not-impressed github repo.
