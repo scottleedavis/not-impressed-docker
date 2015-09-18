@@ -38,7 +38,7 @@ So for example, to run against the not-impressed github repo.
 ```
 http://192.168.99.100:9999/db?url=git@github.com:scottleedavis/not-impressed.git
 ```
-*The repo queried against MUST have a .ni.json configuration file in it's root. in order to run the build/scans.*
+*The repo queried against MUST have a .ni.json configuration file in it's root in order to run the build/scans.*
 
 Notes
 -------------
