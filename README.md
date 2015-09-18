@@ -1,5 +1,5 @@
 # not-impressed-docker
-a docker container webservice that runs 'not-impressed' against git repositories
+a docker container webservice that runs [not-impressed](https://github.com/scottleedavis/not-impressed) against git repositories
 
 
 ###Requirements
