@@ -42,4 +42,4 @@ http://192.168.99.100:9999/db?url=git@github.com:scottleedavis/not-impressed.git
 
 Notes
 -------------
-> This component is designed to be for evaluation purposes only, and not to be put on the public internet.
+> This container is designed to be for evaluation only, and not to be put on the public internet.
