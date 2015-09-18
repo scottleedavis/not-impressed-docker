@@ -23,12 +23,11 @@ app.get('/', function (req, res) {
 						"; cd "+repo_name+"; ni;"
 			console.log(cmd);
 			exec(cmd, function(error, stdout, stderr) {
-				console.log('done')
+				console.log(stdout);
+				console.log(stderr);
+
 				if( fs.existsSync(path.resolve(repo_name, "results.json")) ){
 					var val = jsonfile.readFileSync(path.resolve(repo_name, "results.json"));
-					// res.jsonp({
-					// 	body: val
-					// });  
 					res.json(val);     
 				} else {
 					res.jsonp({
@@ -53,29 +52,3 @@ app.get('/', function (req, res) {
 app.listen(PORT);
 console.log('Running on http://localhost:' + PORT);
 
-// // In this example, returned resources will be wrapped in a body property
-// router.render = function (req, res) {
-// 	console.log('request started...');
-
-// 	if( req.query.url ) {
-// 		var repo_name = req.query.url.split("/").slice(-1).pop().split(".")[0];
-// 		var repo_url = req.query.url;
-// 		var cmd = "rm -fr "+repo_name+
-// 					"; git clone "+repo_url+
-// 					"; cd "+repo_name+"; ni;"
-// 		console.log(cmd);
-// 		exec(cmd, function(error, stdout, stderr) {
-// 			console.log('done')
-// 			var val = jsonfile.readFileSync(path.resolve(repo_name, "results.json"));
-// 			res.jsonp({
-// 				body: val
-// 				// body: res.locals.data
-// 			});            
-//         });
-// 	} else {
-// 		res.jsonp({
-// 			body: {"error": "no git repo supplied."}
-// 		})		
-// 	}
-
-// }
