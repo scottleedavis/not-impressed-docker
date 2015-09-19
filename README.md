@@ -17,7 +17,7 @@ Replace the host variable in `docker-compose.yaml` with that IP
     host: <YOUR IP ADDRESS HERE>
 ```
 
-Start the conatiners
+Start the container
 
 > docker-compose up
 
