@@ -1,0 +1,20 @@
+{
+    "Report": "Not Impressed Docker",
+    "output": "results.json",
+    "targets": [
+        {"web": ""}
+    ],
+    "build": {
+        "node": {
+            "pattern": "package.json",
+            "command": "npm install"
+        },
+        "debug": true
+    },
+    "scan": {
+        "license": {
+            "command": "license_finder"
+        },
+        "debug": true
+    }
+}
