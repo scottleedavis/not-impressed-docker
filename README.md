@@ -50,7 +50,7 @@ http://192.168.99.100:9999/?url=git@github.com:scottleedavis/not-impressed.git
 ```
 *The repo queried against MUST have a .ni.json configuration file in it's root in order to run the build/scans.*
 
-Here are the [results](results.json) generated when not-impressed runs against this repo (here is the  [.ni.json](.ni.json) file.)
+[Results](results.json) from it's own [.ni.json](.ni.json) configuration.
 
 Notes
 -------------
