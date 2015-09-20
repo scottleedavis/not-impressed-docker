@@ -5,6 +5,16 @@ a docker container webservice that runs [not-impressed](https://github.com/scott
 ###Requirements
 * [Docker Toolbox](https://www.docker.com/toolbox)
 
+Docker Image contains
+--------------------
+* [Ubuntu 14.04 env](http://releases.ubuntu.com/14.04/)
+* [nodejs v0.12](https://nodejs.org/en/)
+* [apache maven 3](https://maven.apache.org/download.cgi)
+* [bundler](http://bundler.io/)
+* [rubygems](https://rubygems.org/)
+* [license_finder](https://github.com/pivotal/LicenseFinder)
+
+
 Starting
 -------------
 First determine the ip address of your docker vm
