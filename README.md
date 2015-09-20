@@ -7,9 +7,10 @@ a docker container webservice that runs [not-impressed](https://github.com/scott
 
 Docker Image contains
 --------------------
-* [Ubuntu 14.04 env](http://releases.ubuntu.com/14.04/)
+* [Ubuntu 14.04](http://releases.ubuntu.com/14.04/)
 * [nodejs v0.12](https://nodejs.org/en/)
-* [apache maven 3](https://maven.apache.org/download.cgi)
+* [maven 3](https://maven.apache.org/download.cgi)
+* [java 7](https://java.com/en/download/)
 * [bundler](http://bundler.io/)
 * [rubygems](https://rubygems.org/)
 * [license_finder](https://github.com/pivotal/LicenseFinder)
@@ -43,6 +44,7 @@ After your docker image is running, your can issue GET requests against the foll
 ```
 http://<YOUR IP ADDRESS HERE>:9999/?url=<YOUR GIT REPO HERE>
 ```
+[Results](results.json) are in JSON from it's own [.ni.json](.ni.json) configuration.
 
 An example of running against the not-impressed github repo.
 ```
@@ -50,7 +52,7 @@ http://192.168.99.100:9999/?url=git@github.com:scottleedavis/not-impressed.git
 ```
 *The repo queried against MUST have a .ni.json configuration file in it's root in order to run the build/scans.*
 
-[Results](results.json) from it's own [.ni.json](.ni.json) configuration.
+
 
 Notes
 -------------
