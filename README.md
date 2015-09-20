@@ -14,7 +14,7 @@ Docker Image contains
 * [bundler](http://bundler.io/)
 * [rubygems](https://rubygems.org/)
 * [license_finder](https://github.com/pivotal/LicenseFinder)
-
+* [not-impressed](https://github.com/scottleedavis/not-impressed)
 
 Starting
 -------------
