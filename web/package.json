@@ -14,6 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodejs server.js"
   },
-  "author": "",
+  "author": "Scott Davis <me@scottleedavis.com> (http://scottleedavis.com)",
   "license": "MIT"
 }
